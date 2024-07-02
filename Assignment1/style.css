@@ -133,7 +133,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 100%;
-	column-gap: 20px;
+	column-gap: 20px;  
 }
 
 .temple-details img {
@@ -162,4 +162,20 @@ footer {
 footer p {
 	color: #666;
 
+}
+
+@media (max-width: 900px) {
+    .temple-details {
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+
+    .temple-details img {
+        margin-right: 0;
+    }
+
+    .temple-details p {
+        margin-left: 0;
+        text-align: center;
+    }
 }
