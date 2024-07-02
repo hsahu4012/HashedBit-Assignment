@@ -1,0 +1,165 @@
+/* styles.css */
+
+/* Global styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header styles */
+header {
+	background-color: #f0f0f0;
+	padding: 1em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	font-size: 10px;
+	font-weight: bold;
+}
+.logo img {
+    height: 25px;
+}
+
+.social-links {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.social-links li {
+	margin-right: 20px;
+}
+
+.social-links a {
+    color: #333;
+	text-decoration: none;
+    font-size: 20px;
+}
+.social-links a:hover {
+    color: #5F64E2;
+}
+
+/* Menubar styles */
+.nav-items {
+    align-items: center;
+    list-style: none;
+    margin: 13px 5rem ;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #5F64E2;
+    border-radius: 14px;
+    background-color: rgb(23, 2, 2);
+    font-size: larger;
+
+
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+    color: white;
+	text-decoration: none;
+}
+nav a:hover {
+    color: #5F64E2;
+	text-decoration: none;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar styles */
+aside {
+	background-color: #f7f7f7;
+	padding: 1em;
+	width: 20%;
+	float: left;
+}
+.topic-list{
+    list-style: none;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.topic-list a{
+    padding: 5px;
+	text-decoration: none;
+}
+.topic-list a:hover{
+	color: #5F64E2;
+	text-decoration: underline;
+}
+
+/* Main Content styles */
+main {
+	padding: 1em;
+	width: 80%;
+	float: right;
+}
+
+.box {
+	background-color: #fff;
+	padding: 1em;
+	margin-bottom: 20px;
+
+}
+.temple-details {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+	column-gap: 20px;
+}
+
+.temple-details img {
+    width: 100%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.temple-details p {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 5px;
+	justify-self: center;
+	align-self: center;
+}
+
+
+/* Footer styles */
+footer {
+	background-color: #f0f0f0;
+	padding: 1em;
+	clear: both;
+}
+
+footer p {
+	color: #666;
+
+}
