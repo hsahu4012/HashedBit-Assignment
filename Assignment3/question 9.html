@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assign 3.9</title>
+  </head>
+  <body>
+    <h1>Assignment 3.9</h1>
+
+    <p id="in">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, vitae
+      quia? Aspernatur corporis obcaecati expedita suscipit? Dolore ullam
+      assumenda a blanditiis iure facilis, ad magni, itaque dolores recusandae
+      explicabo ipsum? Sequi corporis consequatur quod architecto deleniti
+      voluptatibus pariatur molestiae! Optio, odio. Eum suscipit itaque
+      possimus, repudiandae non illo veritatis voluptatibus autem totam
+      voluptas, libero obcaecati consectetur, voluptatum officia asperiores
+      perspiciatis.
+    </p>
+    <br /><br />
+    <button onclick="CountWords()">Count</button><br /><br />
+    The number of <b>Words</b>: <span id="words"></span><br /><br />
+    <script>
+      function CountWords() {
+        let input = document.getElementById("in").innerText;
+        let words = input.match(/\w+/g).length;
+        document.getElementById("words").innerHTML = words;
+      }
+    </script>
+  </body>
+</html>
