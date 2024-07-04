@@ -1,0 +1,46 @@
+/* TodoList.module.css */
+
+.container {
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .inputContainer {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .deleteButton {
+    margin-left: 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
