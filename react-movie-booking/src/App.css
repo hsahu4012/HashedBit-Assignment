@@ -8,6 +8,8 @@
 
 /* App */
 
+/* App.css */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -28,10 +30,11 @@ h1 {
 
 .movies-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1200px;
+  padding: 20px;
 }
 
 .movie-item {
@@ -66,6 +69,27 @@ a {
 
 a:hover {
   color: #007bff;
+}
+
+/* Media query to handle different screen sizes */
+@media (max-width: 768px) {
+  .movies-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .movies-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .movie-item h2 {
+    font-size: 1.2em;
+  }
 }
 
 

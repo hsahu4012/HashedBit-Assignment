@@ -26,7 +26,92 @@ const movies = [
     description:
       "Army commando Amrit (Lakshya) finds out his true love Tulika (Tanya Maniktala) is en-route, he boards a New Delhi-bound train in a daring quest to derail the their eventual seperation. But when a gang of knife-wielding thieves led by the ruthless leader (Raghav Juyal) begin to terrorize innocent passengers on his train, Amrit takes them on himself in a death-defying kill-spree to save those around him - turning what should have been a typical commute into an adrenaline-fueled thrill ride.",
   },
-  // Add more movie objects here
+  {
+    id: 4,
+    title: "Kalki 2898 AD",
+    image: image1,
+    description: "When the world is taken over by darkness. A force will rise.",
+  },
+  {
+    id: 5,
+    title: "Munjya",
+    image: image2,
+    description:
+      "A young man`s visit to his native village unveils a family secret and a vengeful spirit, Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya`s clutches leading to a humorously chaotic and terrifying adventure.",
+  },
+  {
+    id: 6,
+    title: "Kill",
+    image: image3,
+    description:
+      "Army commando Amrit (Lakshya) finds out his true love Tulika (Tanya Maniktala) is en-route, he boards a New Delhi-bound train in a daring quest to derail the their eventual seperation. But when a gang of knife-wielding thieves led by the ruthless leader (Raghav Juyal) begin to terrorize innocent passengers on his train, Amrit takes them on himself in a death-defying kill-spree to save those around him - turning what should have been a typical commute into an adrenaline-fueled thrill ride.",
+  },
+  {
+    id: 7,
+    title: "Kalki 2898 AD",
+    image: image1,
+    description: "When the world is taken over by darkness. A force will rise.",
+  },
+  {
+    id: 8,
+    title: "Munjya",
+    image: image2,
+    description:
+      "A young man`s visit to his native village unveils a family secret and a vengeful spirit, Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya`s clutches leading to a humorously chaotic and terrifying adventure.",
+  },
+  {
+    id: 9,
+    title: "Kill",
+    image: image3,
+    description:
+      "Army commando Amrit (Lakshya) finds out his true love Tulika (Tanya Maniktala) is en-route, he boards a New Delhi-bound train in a daring quest to derail the their eventual seperation. But when a gang of knife-wielding thieves led by the ruthless leader (Raghav Juyal) begin to terrorize innocent passengers on his train, Amrit takes them on himself in a death-defying kill-spree to save those around him - turning what should have been a typical commute into an adrenaline-fueled thrill ride.",
+  },
+  {
+    id: 10,
+    title: "Kalki 2898 AD",
+    image: image1,
+    description: "When the world is taken over by darkness. A force will rise.",
+  },
+  {
+    id: 11,
+    title: "Munjya",
+    image: image2,
+    description:
+      "A young man`s visit to his native village unveils a family secret and a vengeful spirit, Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya`s clutches leading to a humorously chaotic and terrifying adventure.",
+  },
+  {
+    id: 12,
+    title: "Kill",
+    image: image3,
+    description:
+      "Army commando Amrit (Lakshya) finds out his true love Tulika (Tanya Maniktala) is en-route, he boards a New Delhi-bound train in a daring quest to derail the their eventual seperation. But when a gang of knife-wielding thieves led by the ruthless leader (Raghav Juyal) begin to terrorize innocent passengers on his train, Amrit takes them on himself in a death-defying kill-spree to save those around him - turning what should have been a typical commute into an adrenaline-fueled thrill ride.",
+  },
+  {
+    id: 13,
+    title: "Kalki 2898 AD",
+    image: image1,
+    description: "When the world is taken over by darkness. A force will rise.",
+  },
+  {
+    id: 14,
+    title: "Munjya",
+    image: image2,
+    description:
+      "A young man`s visit to his native village unveils a family secret and a vengeful spirit, Munjya, who wants to get married. Now the young man must fight to protect himself and his love from Munjya`s clutches leading to a humorously chaotic and terrifying adventure.",
+  },
+  {
+    id: 15,
+    title: "Kill",
+    image: image3,
+    description:
+      "Army commando Amrit (Lakshya) finds out his true love Tulika (Tanya Maniktala) is en-route, he boards a New Delhi-bound train in a daring quest to derail the their eventual seperation. But when a gang of knife-wielding thieves led by the ruthless leader (Raghav Juyal) begin to terrorize innocent passengers on his train, Amrit takes them on himself in a death-defying kill-spree to save those around him - turning what should have been a typical commute into an adrenaline-fueled thrill ride.",
+  },
+  {
+    id: 16,
+    title: "Kalki 2898 AD",
+    image: image1,
+    description: "When the world is taken over by darkness. A force will rise.",
+  },
 ];
 
 function MovieDetails() {
