@@ -6,7 +6,7 @@ const PointsTable = () => {
   const [error, setError] = useState(null);
   const [sortConfig, setSortConfig] = useState({
     key: "NRR",
-    direction: "ascending",
+    direction: "decending",
   });
 
   useEffect(() => {
@@ -68,8 +68,8 @@ const PointsTable = () => {
             <th>Position</th>
             <th onClick={() => requestSort("Team")}>Team</th>
             <th onClick={() => requestSort("Matches")}>Matches Played</th>
-            <th onClick={() => requestSort("Wins")}>Wins</th>
-            <th onClick={() => requestSort("Losses")}>Losses</th>
+            <th onClick={() => requestSort("Won")}>Won</th>
+            <th onClick={() => requestSort("Lost")}>Lost</th>
             <th onClick={() => requestSort("Points")}>Points</th>
             <th onClick={() => requestSort("NRR")}>NRR</th>
           </tr>
@@ -80,8 +80,8 @@ const PointsTable = () => {
               <td>{index + 1}</td>
               <td>{team.Team}</td>
               <td>{team.Matches}</td>
-              <td>{team.Wins}</td>
-              <td>{team.Losses}</td>
+              <td>{team.Won}</td>
+              <td>{team.Lost}</td>
               <td>{team.Points}</td>
               <td>{team.NRR}</td>
             </tr>
